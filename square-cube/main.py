@@ -1,9 +1,22 @@
-def square_cube():
-    num=int(input("enter the number:"))
-    square=num**2  #calculates square of number
-    cube=num**3    #calculates cube of number
+import math
+def square():
+    square_num=int(input("enter the square value:"))
+    
+    num1= math.sqrt(square_num)  #calculates square of number
+  
 
-    print(f"square of {num} is {square} ")
-    print(f"cube of {num} is {cube}")
+    print(f"number of {square_num} is {num1} ")
+ 
 
-square_cube()
+
+square()
+
+def cube():
+    cube_num=int(input("enter the cube value:"))
+
+    num2= math.cbrt(cube_num)   #calculates cube of number
+    print(f"cube of {cube_num} is {num2}")
+
+cube()
+
+
