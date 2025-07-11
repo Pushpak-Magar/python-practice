@@ -7,3 +7,12 @@
 age = int(input())
 
 print(f"{120 - age } years till 120 .")
+
+
+num = int(input())
+
+if num == 1:
+    print("T")
+
+else:
+    print("F")
